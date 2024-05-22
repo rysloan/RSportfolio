@@ -27,9 +27,10 @@ const Works = () => {
             to help businesses achieve their goals.
         </span>
         <div className='worksImgs'>
-            <Link to="/Ivorfall">
+            {/* <Link to="/Ivorfall">
                 <img src={Portfolio1} alt='' className='worksImg' />
-            </Link>
+            </Link> */}
+            <img src={Portfolio1} alt='' className='worksImg' />
             <img src={Portfolio2} alt='' className='worksImg' />
             <img src={Portfolio3} alt='' className='worksImg' />
             <img src={Portfolio4} alt='' className='worksImg' />
