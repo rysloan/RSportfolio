@@ -17,12 +17,12 @@ function App() {
       <Works />
       <Contact />
       <Footer />
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/Ivorfall" element={<Ivorfall />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
