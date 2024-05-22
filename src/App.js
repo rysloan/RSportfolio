@@ -6,25 +6,15 @@ import Contact from "./components/Contact/contact"
 import Footer from "./components/Footer/footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Ivorfall from "./pages/Ivorfall"
+import Main from "./pages/Main"
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/">
-            <Navbar />
-            <Intro />
-            <Skills />
-            <Works />
-            <Contact />
-            <Footer />
-          </Route>
-          <Route path="/Ivorfall">
-            <Navbar />
-            <Ivorfall />
-            <Footer />
-          </Route>
+          <Route path="/" element={<Main />} />
+          <Route path="/Ivorfall" element={<Ivorfall />} />
         </Routes>
       </BrowserRouter>
     </div>
