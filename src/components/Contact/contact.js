@@ -28,7 +28,7 @@ const Contact = () => {
     };
     return (
     <section id='contactPage'>
-        <div id='clients'>
+        {/* <div id='clients'>
             <h1 className='contactPageTitle'>
                 My Clients
             </h1>
@@ -42,7 +42,7 @@ const Contact = () => {
                 <img src={Microsoft} alt='Client' className='clientImg' />
                 <img src={Facebook} alt='Client' className='clientImg' />
             </div>
-        </div>
+        </div> */}
         <div id='contact'>
             <h1 className='contactPageTitle'>
                 Contact Me
