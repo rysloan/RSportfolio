@@ -7,6 +7,8 @@ import Portfolio3 from '../../assets/portfolio-3.png'
 import Portfolio4 from '../../assets/portfolio-4.png'
 import Portfolio5 from '../../assets/portfolio-5.png'
 import Portfolio6 from '../../assets/portfolio-6.png'
+import IvorfallImg from '../../assets/Box_Art.png'
+import GoomImg from '../../assets/T_GoomMainMenuBG.png'
 
 const Works = () => {
   return (
@@ -28,10 +30,10 @@ const Works = () => {
         </span>
         <div className='worksImgs'>
             <Link to="/Ivorfall">
-                <img src={Portfolio1} alt='' className='worksImg' />
+                <img src={IvorfallImg} alt='' className='worksImg' />
             </Link>
             {/* <img src={Portfolio1} alt='' className='worksImg' /> */}
-            <img src={Portfolio2} alt='' className='worksImg' />
+            <img src={GoomImg} alt='' className='worksImg' />
             <img src={Portfolio3} alt='' className='worksImg' />
             <img src={Portfolio4} alt='' className='worksImg' />
             <img src={Portfolio5} alt='' className='worksImg' />

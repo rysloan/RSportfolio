@@ -21,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/Ivorfall" element={<Ivorfall />} />
+          <Route path="/Goom" element={<Ivorfall />} />
         </Routes>
       </HashRouter>
     </div>
