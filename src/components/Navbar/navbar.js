@@ -2,18 +2,22 @@ import React, { useState } from "react";
 import './navbar.css'
 import logo from '../../assets/logo.png'
 import contactImg from '../../assets/contact.png'
-import { Link } from 'react-scroll'
+import { Link as ScrollLink } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import menu from '../../assets/menu.png'
+import homeIcon from '../../assets/home-icon.png'
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return(
         <nav className="navbar">
-            <img src={logo} alt="logo" className="logo" />
+            <Link to="/">
+                <img src={homeIcon} alt="logo" className="logo" />
+            </Link>
             <div className="desktopMenu">
-                <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Home</Link>
-                <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
-                <Link activeClass='active' to="works" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Portfolio</Link>
+                <ScrollLink activeClass='active' to="intro" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Intro</ScrollLink>
+                <ScrollLink activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</ScrollLink>
+                <ScrollLink activeClass='active' to="works" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Portfolio</ScrollLink>
                 {/*<Link activeClass='active' to="clients" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Clients</Link>*/}
             </div>
             <button className="desktopMenuBtn" onClick={() => {
@@ -26,11 +30,11 @@ const Navbar = () => {
             {/* -------MOBILE MENU------- */}
             <img src={menu} alt="menu" className="mobMenu" onClick={() => setShowMenu(!showMenu)}/>
             <div className="navMenu" style={{display: showMenu? 'flex' : 'none'}}>
-                <Link activeClass='active' to="intro" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
-                <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
-                <Link activeClass='active' to="works" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Portfolio</Link>
+                <ScrollLink activeClass='active' to="intro" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</ScrollLink>
+                <ScrollLink activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</ScrollLink>
+                <ScrollLink activeClass='active' to="works" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Portfolio</ScrollLink>
                 {/* <Link activeClass='active' to="clients" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Clients</Link> */}
-                <Link activeClass='active' to="contact" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
+                <ScrollLink activeClass='active' to="contact" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</ScrollLink>
             </div>
         </nav>
     )

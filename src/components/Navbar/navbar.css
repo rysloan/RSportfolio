@@ -14,9 +14,13 @@
 }
 
 .logo {
-    object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    object-fit: contain;
+    height: 3.5rem;
+    width: 3.5rem;
+    background: white;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
 }
 
 .desktopMenuListItem {

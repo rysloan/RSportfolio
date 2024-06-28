@@ -32,8 +32,9 @@ const Works = () => {
             <Link to="/Ivorfall">
                 <img src={IvorfallImg} alt='' className='worksImg' />
             </Link>
-            {/* <img src={Portfolio1} alt='' className='worksImg' /> */}
-            <img src={GoomImg} alt='' className='worksImg' />
+            <Link to="/Goom">
+                <img src={GoomImg} alt='' className='worksImg' />
+            </Link>
             <img src={Portfolio3} alt='' className='worksImg' />
             <img src={Portfolio4} alt='' className='worksImg' />
             <img src={Portfolio5} alt='' className='worksImg' />
