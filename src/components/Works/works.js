@@ -9,6 +9,8 @@ import Portfolio5 from '../../assets/portfolio-5.png'
 import Portfolio6 from '../../assets/portfolio-6.png'
 import IvorfallImg from '../../assets/Box_Art.png'
 import GoomImg from '../../assets/T_GoomMainMenuBG.png'
+import PortfolioProjImg from '../../assets/portfolioProjImg.png'
+import SwarmGif from '../../assets/swarmGif.gif'
 
 const Works = () => {
   return (
@@ -35,7 +37,12 @@ const Works = () => {
             <Link to="/Goom">
                 <img src={GoomImg} alt='' className='worksImg' />
             </Link>
-            <img src={Portfolio3} alt='' className='worksImg' />
+            <Link to="/PortfolioProject">
+                <img src={PortfolioProjImg} alt='' className='worksImg' />
+            </Link>
+            <Link to="/UserStudyProj">
+                <img src={SwarmGif} alt='' className='worksImg' />
+            </Link>
             <img src={Portfolio4} alt='' className='worksImg' />
             <img src={Portfolio5} alt='' className='worksImg' />
             <img src={Portfolio6} alt='' className='worksImg' />

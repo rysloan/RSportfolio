@@ -2,14 +2,14 @@ import React from 'react'
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer"
 
-const Goom = () => {
+const UserStudyProj = () => {
   return (
     <div>
         <Navbar />
-        <p>Goom</p>
+        <p>UserStudyProj</p>
         <Footer />
     </div>
   )
 }
 
-export default Goom
+export default UserStudyProj
