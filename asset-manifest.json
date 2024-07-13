@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RSportfolio/static/css/main.5c35e72d.css",
-    "main.js": "/RSportfolio/static/js/main.90ef50b4.js",
+    "main.css": "/RSportfolio/static/css/main.384efbb2.css",
+    "main.js": "/RSportfolio/static/js/main.d1556bcf.js",
     "static/media/Box_Art.png": "/RSportfolio/static/media/Box_Art.436ed53c0a196dd5337c.png",
     "static/media/T_GoomMainMenuBG.png": "/RSportfolio/static/media/T_GoomMainMenuBG.f4686d207e38c957828c.png",
     "static/media/image.png": "/RSportfolio/static/media/image.00cdf3615da8d4c54ace.png",
@@ -19,11 +19,11 @@
     "static/media/ui-design.png": "/RSportfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "static/media/instagram.png": "/RSportfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/RSportfolio/index.html",
-    "main.5c35e72d.css.map": "/RSportfolio/static/css/main.5c35e72d.css.map",
-    "main.90ef50b4.js.map": "/RSportfolio/static/js/main.90ef50b4.js.map"
+    "main.384efbb2.css.map": "/RSportfolio/static/css/main.384efbb2.css.map",
+    "main.d1556bcf.js.map": "/RSportfolio/static/js/main.d1556bcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c35e72d.css",
-    "static/js/main.90ef50b4.js"
+    "static/css/main.384efbb2.css",
+    "static/js/main.d1556bcf.js"
   ]
 }
