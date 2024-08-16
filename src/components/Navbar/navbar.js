@@ -41,10 +41,10 @@ const Navbar = () => {
                 {/*<Link activeClass='active' to="clients" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Clients</Link>*/}
             </div>
             <div className="projectNavMenu" ref={el => { projectMenuRef.current = el}} style={{display: showPortfolioProjects? 'flex' : 'none'}}>
-                <Link to="/Ivorfall" onClick={() => setShowPortfolioProjects(true)}>Ivorfall</Link>
-                <Link to="/Goom" onClick={() => setShowPortfolioProjects(true)}>Goom</Link>
-                <Link to="/UserStudyProj" onClick={() => setShowPortfolioProjects(true)}>Swarms User Study Project</Link>
-                <Link to="/PortfolioProject" onClick={() => setShowPortfolioProjects(true)}>Portfolio Project</Link>
+                <Link to="/Ivorfall" onClick={() => setShowPortfolioProjects(true)} className="listItem">Ivorfall</Link>
+                <Link to="/Goom" onClick={() => setShowPortfolioProjects(true)} className="listItem">Goom</Link>
+                <Link to="/UserStudyProj" onClick={() => setShowPortfolioProjects(true)} className="listItem">Swarms User Study Project</Link>
+                <Link to="/PortfolioProject" onClick={() => setShowPortfolioProjects(true)} className="listItem">Portfolio Project</Link>
                 {/*Link to Eon Project*/}
             </div>
             <button className="desktopMenuBtn" onClick={() => {
