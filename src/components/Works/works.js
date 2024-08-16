@@ -27,8 +27,9 @@ const Works = () => {
             6. Maybe Operating Systems project
             I am always striving to learn new things and improve upon my strengths and weaknesses. I love being creative and make sure
             to show this when working on my projects. When I visualize something that I want done, I won't quit until I can see it 
-            become reality even if it is something that I have never attempted before. I am excited to bring my skills and experience
-            to help businesses achieve their goals.
+            become reality even if it is something that I have never attempted before. Most importantly I want the things that I build 
+            to bring a smile on peoples faces and make the lives of those who use them better. I am excited to bring my skills and experience
+            to help businesses achieve their goals. 
         </span>
         <div className='worksImgs'>
             <Link to="/Ivorfall">
