@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RSportfolio/static/css/main.384efbb2.css",
-    "main.js": "/RSportfolio/static/js/main.d1556bcf.js",
+    "main.css": "/RSportfolio/static/css/main.5c1cf624.css",
+    "main.js": "/RSportfolio/static/js/main.2dd7eaf0.js",
     "static/media/Box_Art.png": "/RSportfolio/static/media/Box_Art.436ed53c0a196dd5337c.png",
     "static/media/T_GoomMainMenuBG.png": "/RSportfolio/static/media/T_GoomMainMenuBG.f4686d207e38c957828c.png",
     "static/media/image.png": "/RSportfolio/static/media/image.00cdf3615da8d4c54ace.png",
@@ -12,18 +12,20 @@
     "static/media/portfolio-5.png": "/RSportfolio/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
     "static/media/portfolio-3.png": "/RSportfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
     "static/media/swarmGif.gif": "/RSportfolio/static/media/swarmGif.04cffe49e886f1d94230.gif",
+    "static/media/AIEngineerIcon.png": "/RSportfolio/static/media/AIEngineerIcon.103016da5a7455038dee.png",
     "static/media/facebook.png": "/RSportfolio/static/media/facebook.81dd033a37c4860f7121.png",
     "static/media/portfolioProjImg.png": "/RSportfolio/static/media/portfolioProjImg.3b131bdc04fa229b99f5.png",
+    "static/media/GameDevIcon.png": "/RSportfolio/static/media/GameDevIcon.0430d29f6b3ee9fa11ff.png",
+    "static/media/FullStackIcon.png": "/RSportfolio/static/media/FullStackIcon.e1918a32ed2db4d1c1d5.png",
     "static/media/adobe.png": "/RSportfolio/static/media/adobe.a08b8360ff7b700ed0c4.png",
     "static/media/walmart.png": "/RSportfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
-    "static/media/ui-design.png": "/RSportfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "static/media/instagram.png": "/RSportfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/RSportfolio/index.html",
-    "main.384efbb2.css.map": "/RSportfolio/static/css/main.384efbb2.css.map",
-    "main.d1556bcf.js.map": "/RSportfolio/static/js/main.d1556bcf.js.map"
+    "main.5c1cf624.css.map": "/RSportfolio/static/css/main.5c1cf624.css.map",
+    "main.2dd7eaf0.js.map": "/RSportfolio/static/js/main.2dd7eaf0.js.map"
   },
   "entrypoints": [
-    "static/css/main.384efbb2.css",
-    "static/js/main.d1556bcf.js"
+    "static/css/main.5c1cf624.css",
+    "static/js/main.2dd7eaf0.js"
   ]
 }
