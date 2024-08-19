@@ -19,12 +19,12 @@ const Works = () => {
             My Portfolio
         </h2>
         <span className='worksDesc'>
-            1. Ivorfall
+            {/* 1. Ivorfall
             2. Goom
             3. React project
             4. Portfolio project
             5. Maybe Battle Tanks
-            6. Maybe Operating Systems project
+            6. Maybe Operating Systems project */}
             I am always striving to learn new things and improve upon my strengths and weaknesses. I love being creative and make sure
             to show this when working on my projects. When I visualize something that I want done, I won't quit until I can see it 
             become reality even if it is something that I have never attempted before. Most importantly I want the things that I build 
@@ -44,9 +44,9 @@ const Works = () => {
             <Link to="/UserStudyProj">
                 <img src={SwarmGif} alt='' className='worksImg' />
             </Link>
-            <img src={Portfolio4} alt='' className='worksImg' />
+            {/* <img src={Portfolio4} alt='' className='worksImg' />
             <img src={Portfolio5} alt='' className='worksImg' />
-            <img src={Portfolio6} alt='' className='worksImg' />
+            <img src={Portfolio6} alt='' className='worksImg' /> */}
         </div>
         <button className='worksBtn'>
             See More

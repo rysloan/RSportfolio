@@ -1,0 +1,42 @@
+#ivorfallExamples {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ivorfallExampleArea {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.ivorfallExample {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    
+}
+
+.exampleVideo {
+    right: 2rem;
+    object-fit: cover;
+}
+
+.vidText {
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25rem;
+}
