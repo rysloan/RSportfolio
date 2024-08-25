@@ -8,7 +8,7 @@ const IvorfallIntro = () => {
   return (
     <section id='ivorfallIntro'>
         <ExternalLink href='https://store.steampowered.com/app/2901040/Ivorfall/'>
-            <span className='ivorfallLink'>Ivorfall Steam Page</span>
+            <span className='ivorfallLink'>Ivorfall Steam Page Link</span>
         </ExternalLink>
         <span className='ivorfallDesc'>
             Ivorfall is a single-player twin-stick shooter where the player creates weapon combinations and buys special items to help defeat the main enemy The Raven. 
