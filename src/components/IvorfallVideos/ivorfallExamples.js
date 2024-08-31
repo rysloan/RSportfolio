@@ -5,31 +5,10 @@ import Ivorfall1 from '../../assets/Ivorfall1.mp4'
 import Ivorfall2 from '../../assets/Ivorfall2.mp4'
 import "react-image-gallery/styles/css/image-gallery.css"
 import ImageGallery from "react-image-gallery";
-import AICPrototype from "../../assets/AIC_Prototype.png"
-import AICFinal from "../../assets/AIC_Final.png"
-
-const IverfallPrototype = require.context('../../assets/IvorfallProto', true)
-const IverfallFinal = require.context('../../assets/IvorfallFinal', true)
-const prototypeImgs = IverfallPrototype.keys().map(v => IverfallPrototype(v))
-const finalImgs = IverfallFinal.keys().map(v => IverfallFinal(v))
-
-
+import { prototype as PrototypeImages } from './ivorfallCodeImages/prototypeImages'
+import { final as FinalImages } from './ivorfallCodeImages/finalImages'
 
 const IvorfallIntro = () => {
-  const imagesPrototype = prototypeImgs.map(img => {
-    return {
-      original: img,
-      originalHeight: '640px',
-      description: img,
-    }
-  })
-  const imagesFinal = finalImgs.map(img => {
-    return {
-      original: img,
-      originalHeight: '640px',
-      description: img,
-    }
-  })
   return (
     <section id='ivorfallExamples'>
       <div className='ivorfallExampleArea'>
@@ -52,6 +31,9 @@ const IvorfallIntro = () => {
             We have many more types of enemies, from a melee boxer that slams the ground and charges at the player and a guy that fire blobs of oil that damage and slow the player when hit.
             The AI controller stayed mostly the same throughout the games creation with only a few more initial setup variables.
             Some enemy type use the same EQS to make things simplier for the player, but I added 5 unique EQS classes for the enemies.
+            Not all enemy types are shown in the video since they are randomly picked at BeginPlay, but the list of enemies are as follows;
+            Boxer, Blunderbuss Thug, Electric Thug, Oil Thug, Sniper Thug, Base Thug, Cog Thug, and Tommygun Thug.
+            All Thugs share the same behavior tree and the boxer has their own.
           </span>
         </div>
       </div>
@@ -59,9 +41,9 @@ const IvorfallIntro = () => {
           <span className='codeSnipetTitle'>Ivorfall Code Snipets</span>
           <span className='codeSnipetDesc'>Prototype Code vs Final Build Code</span>
           <span className='codeTitle'>Prototype</span>
-          <ImageGallery items={imagesPrototype} useBrowserFullscreen={false} />
+          <ImageGallery items={PrototypeImages} useBrowserFullscreen={false} />
           <span className='codeTitle'>Final Build</span>
-          <ImageGallery items={imagesFinal} useBrowserFullscreen={false} />
+          <ImageGallery items={FinalImages} useBrowserFullscreen={false} />
         </div>
     </section>
   )
