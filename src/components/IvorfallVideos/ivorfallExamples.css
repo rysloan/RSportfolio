@@ -40,3 +40,32 @@
     justify-content: center;
     max-width: 30rem;
 }
+
+.ivorfallCodeSnipets {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+}
+
+.codeSnipetTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 0.5rem;
+    color: yellow;
+}
+
+.codeSnipetDesc {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.codeTitle {
+    font-weight: 600;
+    font-size: 2rem;
+    color: yellow;
+    padding-top: 2rem;
+}

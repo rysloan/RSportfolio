@@ -56,9 +56,13 @@ const IvorfallIntro = () => {
         </div>
       </div>
       <div className='ivorfallCodeSnipets'>
-        <ImageGallery items={imagesPrototype} />
-        <ImageGallery items={imagesFinal} />
-      </div>
+          <span className='codeSnipetTitle'>Ivorfall Code Snipets</span>
+          <span className='codeSnipetDesc'>Prototype Code vs Final Build Code</span>
+          <span className='codeTitle'>Prototype</span>
+          <ImageGallery items={imagesPrototype} useBrowserFullscreen={false} />
+          <span className='codeTitle'>Final Build</span>
+          <ImageGallery items={imagesFinal} useBrowserFullscreen={false} />
+        </div>
     </section>
   )
 }
