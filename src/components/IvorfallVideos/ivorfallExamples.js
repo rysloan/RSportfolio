@@ -41,9 +41,9 @@ const IvorfallIntro = () => {
           <span className='codeSnipetTitle'>Ivorfall Code Snipets</span>
           <span className='codeSnipetDesc'>Prototype Code vs Final Build Code</span>
           <span className='codeTitle'>Prototype</span>
-          <ImageGallery items={PrototypeImages} useBrowserFullscreen={false} />
+          <ImageGallery items={PrototypeImages} useBrowserFullscreen={false} showIndex={true} showBullets={true} />
           <span className='codeTitle'>Final Build</span>
-          <ImageGallery items={FinalImages} useBrowserFullscreen={false} />
+          <ImageGallery items={FinalImages} useBrowserFullscreen={false} showIndex={true} />
         </div>
     </section>
   )
