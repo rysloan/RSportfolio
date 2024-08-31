@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RSportfolio/static/css/main.24bc7e1d.css",
-    "main.js": "/RSportfolio/static/js/main.2f4e6c8b.js",
+    "main.css": "/RSportfolio/static/css/main.7f1f1f0e.css",
+    "main.js": "/RSportfolio/static/js/main.5e183df8.js",
     "reactPlayerYouTube.js": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js",
     "reactPlayerSoundCloud.js": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js",
     "reactPlayerVimeo.js": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js",
@@ -21,10 +21,8 @@
     "static/media/Box_Art.png": "/RSportfolio/static/media/Box_Art.436ed53c0a196dd5337c.png",
     "static/media/T_GoomMainMenuBG.png": "/RSportfolio/static/media/T_GoomMainMenuBG.f4686d207e38c957828c.png",
     "static/media/image.png": "/RSportfolio/static/media/image.00cdf3615da8d4c54ace.png",
-    "static/media/AIC_Prototype.png": "/RSportfolio/static/media/AIC_Prototype.6ae2d368df40eb25d31e.png",
     "static/media/BaseAIC.png": "/RSportfolio/static/media/BaseAIC.6ae2d368df40eb25d31e.png",
     "static/media/ThugBT3.png": "/RSportfolio/static/media/ThugBT3.9cda16f5512b2ffda1db.png",
-    "static/media/AIC_Final.png": "/RSportfolio/static/media/AIC_Final.7dbb6f8e67626a61831e.png",
     "static/media/FinalBaseAIC.png": "/RSportfolio/static/media/FinalBaseAIC.7dbb6f8e67626a61831e.png",
     "static/media/RangedBT.png": "/RSportfolio/static/media/RangedBT.cb6c6a675e3a2787282a.png",
     "static/media/ThugBT2.png": "/RSportfolio/static/media/ThugBT2.c634596f90bae8e116ea.png",
@@ -62,8 +60,8 @@
     "static/media/walmart.png": "/RSportfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
     "static/media/instagram.png": "/RSportfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/RSportfolio/index.html",
-    "main.24bc7e1d.css.map": "/RSportfolio/static/css/main.24bc7e1d.css.map",
-    "main.2f4e6c8b.js.map": "/RSportfolio/static/js/main.2f4e6c8b.js.map",
+    "main.7f1f1f0e.css.map": "/RSportfolio/static/css/main.7f1f1f0e.css.map",
+    "main.5e183df8.js.map": "/RSportfolio/static/js/main.5e183df8.js.map",
     "reactPlayerYouTube.1ea34014.chunk.js.map": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js.map",
     "reactPlayerSoundCloud.cd68a6f2.chunk.js.map": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js.map",
     "reactPlayerVimeo.6f023723.chunk.js.map": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js.map",
@@ -80,7 +78,7 @@
     "reactPlayerPreview.c2ccba25.chunk.js.map": "/RSportfolio/static/js/reactPlayerPreview.c2ccba25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24bc7e1d.css",
-    "static/js/main.2f4e6c8b.js"
+    "static/css/main.7f1f1f0e.css",
+    "static/js/main.5e183df8.js"
   ]
 }
