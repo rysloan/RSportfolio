@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RSportfolio/static/css/main.7a5a380f.css",
-    "main.js": "/RSportfolio/static/js/main.25fb54dc.js",
+    "main.css": "/RSportfolio/static/css/main.24bc7e1d.css",
+    "main.js": "/RSportfolio/static/js/main.2f4e6c8b.js",
     "reactPlayerYouTube.js": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js",
     "reactPlayerSoundCloud.js": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js",
     "reactPlayerVimeo.js": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js",
@@ -62,8 +62,8 @@
     "static/media/walmart.png": "/RSportfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
     "static/media/instagram.png": "/RSportfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/RSportfolio/index.html",
-    "main.7a5a380f.css.map": "/RSportfolio/static/css/main.7a5a380f.css.map",
-    "main.25fb54dc.js.map": "/RSportfolio/static/js/main.25fb54dc.js.map",
+    "main.24bc7e1d.css.map": "/RSportfolio/static/css/main.24bc7e1d.css.map",
+    "main.2f4e6c8b.js.map": "/RSportfolio/static/js/main.2f4e6c8b.js.map",
     "reactPlayerYouTube.1ea34014.chunk.js.map": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js.map",
     "reactPlayerSoundCloud.cd68a6f2.chunk.js.map": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js.map",
     "reactPlayerVimeo.6f023723.chunk.js.map": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js.map",
@@ -80,7 +80,7 @@
     "reactPlayerPreview.c2ccba25.chunk.js.map": "/RSportfolio/static/js/reactPlayerPreview.c2ccba25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a5a380f.css",
-    "static/js/main.25fb54dc.js"
+    "static/css/main.24bc7e1d.css",
+    "static/js/main.2f4e6c8b.js"
   ]
 }
