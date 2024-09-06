@@ -17,6 +17,11 @@
     object-fit: contain;
     height: 3.5rem;
     width: 3.5rem;
+    color: white;
+}
+
+.logo:hover {
+    color: yellow
 }
 
 .desktopMenuListItem {

@@ -6,6 +6,8 @@ import { Link as ScrollLink } from 'react-scroll'
 import { Link } from 'react-router-dom'
 import menu from '../../assets/menu.png'
 import homeIcon from '../../assets/home-icon.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -31,7 +33,8 @@ const Navbar = () => {
     return(
         <nav className="navbar">
             <Link to="/">
-                <img src={homeIcon} alt="logo" className="logo" />
+                {/* <img src={homeIcon} alt="logo" className="logo" /> */}
+                <FontAwesomeIcon icon={faHouse} alt="logo" className="logo" />
             </Link>
             <div className="desktopMenu">
                 <ScrollLink activeClass='active' to="intro" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Intro</ScrollLink>

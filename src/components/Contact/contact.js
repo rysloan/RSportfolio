@@ -9,6 +9,9 @@ import TwitterIcon from '../../assets/twitter.png'
 import YoutubeIcon from '../../assets/youtube.png'
 import InstagramIcon from '../../assets/instagram.png'
 import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
     const form = useRef();
@@ -56,10 +59,12 @@ const Contact = () => {
                 <textarea name='message' rows={5} placeholder='Your Message' className='message' ></textarea>
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
                 <div className='links'>
-                    <img src={FacebookIcon} alt='Facebook' className='link' />
+                    <FontAwesomeIcon icon={faGithub} alt='Facebook' className='link' />
+                    <FontAwesomeIcon icon={faLinkedin} alt='Facebook' className='link' />
+                    {/* <img src={FacebookIcon} alt='Facebook' className='link' />
                     <img src={TwitterIcon} alt='Twitter' className='link' />
                     <img src={YoutubeIcon} alt='Youtube' className='link' />
-                    <img src={InstagramIcon} alt='Instagram' className='link' />
+                    <img src={InstagramIcon} alt='Instagram' className='link' /> */}
                 </div>
             </form>
         </div>

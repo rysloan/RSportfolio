@@ -8,3 +8,16 @@
     font-weight: 300;
     font-size: small;
 }
+
+.footerLink {
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0 0.5rem;
+    color: white;
+}
+
+.footerLink:hover {
+    color: yellow;
+    cursor: pointer;
+}
