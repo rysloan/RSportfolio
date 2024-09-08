@@ -22,6 +22,11 @@
     max-width: 45rem;
 }
 
+.imageContainer {
+    position: relative;
+    margin: 0.5rem;
+}
+
 .worksImgs {
     display: flex;
     align-items: center;
@@ -31,10 +36,32 @@
     max-width: 65rem;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0);
+}
+
 .worksImg {
-    object-fit: cover;
+    display: block;
     height: 20rem;
-    margin: 0.5rem;
+    
+}
+
+.imageContainer:hover .overlay {
+    background-color: rgba(50, 50, 50, 0.6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .worksBtn {

@@ -17,7 +17,7 @@ const IvorfallIntro = () => {
             This is the state of the AI during the Ivorfall prototype which was created within the first 2 weeks on the project.
             During these two weeks I created two different enemies types, a melee and a ranged, that both inherited from a parant base blueprint class.
             In addition, I created an AI controller that handles their perception so they attack the player when they have sight or when the player damages them and setups all the initial
-            behavior tree varaibles.
+            blackboard varaibles.
             The points on the floor are created by an EQS, environment query system, that gives information to the AI on the best points to move to based off the players location.
             Both the melee and ranged AI have their own EQS class. All of the behavior for the AI is decided from a behavior tree that I created. This tree has custom tasks that tell
             them when to attack, when to move, when to chase the player, or when to patrol around a certain area.
@@ -137,7 +137,7 @@ const IvorfallIntro = () => {
             </ol>
           </span>
           <span className='challengesTitle'>Challenges and Solutions</span>
-          
+
         </div>
     </section>
   )

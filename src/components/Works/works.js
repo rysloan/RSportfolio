@@ -11,6 +11,8 @@ import IvorfallImg from '../../assets/Box_Art.png'
 import GoomImg from '../../assets/T_GoomMainMenuBG.png'
 import PortfolioProjImg from '../../assets/portfolioProjImg.png'
 import SwarmGif from '../../assets/swarmGif.gif'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Works = () => {
   return (
@@ -33,16 +35,28 @@ const Works = () => {
         </span>
         <div className='worksImgs'>
             <Link to="/Ivorfall">
-                <img src={IvorfallImg} alt='' className='worksImg' />
+                <div className='imageContainer'>
+                    <img src={IvorfallImg} alt='' className='worksImg' />
+                    <span className='overlay'>Ivorfall<FontAwesomeIcon icon={faArrowRight} /></span>
+                </div>
             </Link>
             <Link to="/Goom">
-                <img src={GoomImg} alt='' className='worksImg' />
+                <div className='imageContainer'>
+                    <img src={GoomImg} alt='' className='worksImg' />
+                    <span className='overlay'>Goom<FontAwesomeIcon icon={faArrowRight} /></span>
+                </div>
             </Link>
             <Link to="/PortfolioProject">
-                <img src={PortfolioProjImg} alt='' className='worksImg' />
+                <div className='imageContainer'>
+                    <img src={PortfolioProjImg} alt='' className='worksImg' />
+                    <span className='overlay'>Portfolio<FontAwesomeIcon icon={faArrowRight} /></span>
+                </div>
             </Link>
             <Link to="/UserStudyProj">
-                <img src={SwarmGif} alt='' className='worksImg' />
+                <div className='imageContainer'>
+                    <img src={SwarmGif} alt='' className='worksImg' />
+                    <span className='overlay'>Swarm User Study<FontAwesomeIcon icon={faArrowRight} /></span>
+                </div>
             </Link>
             {/* <img src={Portfolio4} alt='' className='worksImg' />
             <img src={Portfolio5} alt='' className='worksImg' />
