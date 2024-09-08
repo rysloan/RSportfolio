@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RSportfolio/static/css/main.0e8033a0.css",
-    "main.js": "/RSportfolio/static/js/main.2108c889.js",
+    "main.css": "/RSportfolio/static/css/main.a170285c.css",
+    "main.js": "/RSportfolio/static/js/main.b7c30168.js",
     "reactPlayerYouTube.js": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js",
     "reactPlayerSoundCloud.js": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js",
     "reactPlayerVimeo.js": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/Ivorfall1.mp4": "/RSportfolio/static/media/Ivorfall1.cd0ed051a7c90f74744a.mp4",
     "static/media/Box_Art.png": "/RSportfolio/static/media/Box_Art.436ed53c0a196dd5337c.png",
     "static/media/T_GoomMainMenuBG.png": "/RSportfolio/static/media/T_GoomMainMenuBG.f4686d207e38c957828c.png",
-    "static/media/image.png": "/RSportfolio/static/media/image.00cdf3615da8d4c54ace.png",
+    "static/media/IMG_2301.png": "/RSportfolio/static/media/IMG_2301.dabda3ace14a9c53bd13.png",
     "static/media/BaseAIC.png": "/RSportfolio/static/media/BaseAIC.6ae2d368df40eb25d31e.png",
     "static/media/ThugBT3.png": "/RSportfolio/static/media/ThugBT3.9cda16f5512b2ffda1db.png",
     "static/media/FinalBaseAIC.png": "/RSportfolio/static/media/FinalBaseAIC.7dbb6f8e67626a61831e.png",
@@ -60,8 +60,8 @@
     "static/media/walmart.png": "/RSportfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
     "static/media/instagram.png": "/RSportfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/RSportfolio/index.html",
-    "main.0e8033a0.css.map": "/RSportfolio/static/css/main.0e8033a0.css.map",
-    "main.2108c889.js.map": "/RSportfolio/static/js/main.2108c889.js.map",
+    "main.a170285c.css.map": "/RSportfolio/static/css/main.a170285c.css.map",
+    "main.b7c30168.js.map": "/RSportfolio/static/js/main.b7c30168.js.map",
     "reactPlayerYouTube.1ea34014.chunk.js.map": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js.map",
     "reactPlayerSoundCloud.cd68a6f2.chunk.js.map": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js.map",
     "reactPlayerVimeo.6f023723.chunk.js.map": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js.map",
@@ -78,7 +78,7 @@
     "reactPlayerPreview.c2ccba25.chunk.js.map": "/RSportfolio/static/js/reactPlayerPreview.c2ccba25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e8033a0.css",
-    "static/js/main.2108c889.js"
+    "static/css/main.a170285c.css",
+    "static/js/main.b7c30168.js"
   ]
 }
