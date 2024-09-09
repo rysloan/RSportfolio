@@ -26,7 +26,7 @@ const IvorfallIntro = () => {
             <ol style={{ listStyleType: 'decimal' }}>
                 <li>Advanced skill with Unreals behavior tree system</li>
                 <li>Advanced skill with Unreals environment query system</li>
-                <li>Working and communicating in a team of 24</li>
+                <li>Working and communicating in a team of 26</li>
                 <li>Understanding the process and pipeline of creating and releasing a full game from scratch</li>
                 <li>Designing and creating unique enemies and bosses</li>
             </ol>
