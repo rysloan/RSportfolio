@@ -17,6 +17,8 @@ const IvorfallIntro = () => {
             In addition to this I helped contribute to all of the balancing for our players weapons and enemy statistics as well as contributing to many of the design ideas
             like the players weapons/combinations, enemy attacks, shop items, boss attacks, level design, and environmental hazards.
         </span>
+        <ReactPlayer url='https://www.youtube.com/embed/Ho0r55uKdIg' playing={false} controls={true} height={'360px'} width={'640px'} className='youtubeVid' />
+        <ReactPlayer url='https://www.youtube.com/watch?v=T3faHrBHFx8' playing={false} controls={true} height={'360px'} width={'640px'} className='youtubeVid' />
         <span className='skillsLearnedTitle'>
             Learned Skills
         </span>
