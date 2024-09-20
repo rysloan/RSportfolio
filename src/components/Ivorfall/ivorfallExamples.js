@@ -12,7 +12,7 @@ import FinalImgDesc from './ivorfallImageDescriptions/finalImageDescriptions';
 
 const IvorfallIntro = () => {
   return (
-    <section id='ivorfallExamples'>
+    <section id='skills'>
       <div className='ivorfallExampleArea'>
         <div className='ivorfallExample'>
           <span className='vidText'>

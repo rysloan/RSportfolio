@@ -13,6 +13,7 @@ import PortfolioProjImg from '../../assets/portfolioProjImg.png'
 import SwarmGif from '../../assets/swarmGif.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { Link as ScrollLink } from 'react-scroll'
 
 const Works = () => {
   return (
@@ -34,8 +35,8 @@ const Works = () => {
             to help businesses achieve their goals. 
         </span>
         <div className='worksImgs'>
-            <Link to="/Ivorfall">
-                <div className='imageContainer'>
+            <Link to="/Ivorfall" onClick={window.scrollTo(0, 0)}>
+                <div className='imageContainer' onClick={window.scrollTo(0, 0)}>
                     <img src={IvorfallImg} alt='' className='worksImg' />
                     <span className='overlay'>Ivorfall<FontAwesomeIcon icon={faArrowRight} /></span>
                 </div>
@@ -58,9 +59,6 @@ const Works = () => {
                     <span className='overlay'>Swarm User Study<FontAwesomeIcon icon={faArrowRight} /></span>
                 </div>
             </Link>
-            {/* <img src={Portfolio4} alt='' className='worksImg' />
-            <img src={Portfolio5} alt='' className='worksImg' />
-            <img src={Portfolio6} alt='' className='worksImg' /> */}
         </div>
         <button className='worksBtn'>
             See More

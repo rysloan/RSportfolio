@@ -1,4 +1,4 @@
-#ivorfallIntro {
+#intro {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -11,25 +11,20 @@
     
 }
 
-.ivorfallLink {
+.descTitle {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     color: yellow;
 }
 
-.ivorfallLink:hover {
-    padding-bottom: 0.25rem;
-    border-bottom: 5px solid yellow;
-}
-
-.ivorfallDesc {
+.portfolioDesc {
     font-weight: 400;
     font-size: 1rem;
     max-width: 50rem;
     padding: 0 2rem;
-    padding-top: 1rem
+    padding-top: .5rem
 }
 
 .skillsLearnedTitle {
@@ -44,8 +39,4 @@
     font-weight: 400;
     font-size: 1rem;
     text-align: justify;
-}
-
-.youtubeVid {
-    padding-top: 1rem;
 }

@@ -2,11 +2,10 @@ import React from 'react'
 import { ExternalLink } from 'react-external-link';
 import './ivorfallIntro.css'
 import ReactPlayer from 'react-player';
-import Ivorfall1 from '../../assets/Ivorfall1.mp4'
 
 const IvorfallIntro = () => {
   return (
-    <section id='ivorfallIntro'>
+    <section id='intro'>
         <ExternalLink href='https://store.steampowered.com/app/2901040/Ivorfall/'>
             <span className='ivorfallLink'>Ivorfall Steam Page Link</span>
         </ExternalLink>

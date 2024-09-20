@@ -1,0 +1,100 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ivorfallExampleArea {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.ivorfallExample {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.exampleVideo {
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vidText {
+    padding: 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.ivorfallCodeSnipets {
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+}
+
+.codeSnipetTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 0.5rem;
+    color: yellow;
+}
+
+.codeSnipetDesc {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.codeTitle {
+    font-weight: 600;
+    font-size: 2rem;
+    color: yellow;
+    padding-top: 2rem;
+}
+
+.imageDescriptions {
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: auto;
+    width: 65rem;
+}
+
+.imageDescriptionItem {
+    padding-top: 0.5rem;
+    width: 65rem;
+    margin: auto;
+}
+
+.imageDescriptionItem2 {
+    padding-top: 0.5rem;
+    width: 60rem;
+    margin: auto;
+}
