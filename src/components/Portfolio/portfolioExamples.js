@@ -6,7 +6,7 @@ import ImageGallery from "react-image-gallery";
 
 const IvorfallIntro = () => {
   return (
-    <section id='skills'>
+    <section id='portfolioExamples'>
       <div className='ivorfallExampleArea'>
         <div className='ivorfallExample'>
           <span className='vidText'>
