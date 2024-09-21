@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RSportfolio/static/css/main.ce822a3e.css",
+    "main.css": "/RSportfolio/static/css/main.8bbc46cc.css",
     "main.js": "/RSportfolio/static/js/main.0a670379.js",
     "reactPlayerYouTube.js": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js",
     "reactPlayerSoundCloud.js": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js",
@@ -60,7 +60,7 @@
     "static/media/walmart.png": "/RSportfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
     "static/media/instagram.png": "/RSportfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/RSportfolio/index.html",
-    "main.ce822a3e.css.map": "/RSportfolio/static/css/main.ce822a3e.css.map",
+    "main.8bbc46cc.css.map": "/RSportfolio/static/css/main.8bbc46cc.css.map",
     "main.0a670379.js.map": "/RSportfolio/static/js/main.0a670379.js.map",
     "reactPlayerYouTube.1ea34014.chunk.js.map": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js.map",
     "reactPlayerSoundCloud.cd68a6f2.chunk.js.map": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js.map",
@@ -78,7 +78,7 @@
     "reactPlayerPreview.c2ccba25.chunk.js.map": "/RSportfolio/static/js/reactPlayerPreview.c2ccba25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce822a3e.css",
+    "static/css/main.8bbc46cc.css",
     "static/js/main.0a670379.js"
   ]
 }
