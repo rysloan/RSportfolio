@@ -3,7 +3,7 @@ import './portfolioIntro.css'
 
 const PortfolioIntro = () => {
   return (
-    <section id='intro'>
+    <section id='portfolioIntro'>
         <span className='descTitle'>Description</span>
         <span className='portfolioDesc'>
             This portfolio is a website that is hosted by github and created using ReactJS. With a combination of React elements, Javascript, and CSS I was able to create the website 

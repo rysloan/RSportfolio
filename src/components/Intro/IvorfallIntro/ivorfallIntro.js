@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 
 const IvorfallIntro = () => {
   return (
-    <section id='intro'>
+    <section id='ivorfallIntro'>
         <ExternalLink href='https://store.steampowered.com/app/2901040/Ivorfall/'>
             <span className='ivorfallLink'>Ivorfall Steam Page Link</span>
         </ExternalLink>
