@@ -31,21 +31,6 @@ const Contact = () => {
     };
     return (
     <section id='contactPage'>
-        {/* <div id='clients'>
-            <h1 className='contactPageTitle'>
-                My Clients
-            </h1>
-            <p className='clientsDesc'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam
-            </p>
-            <div className='clientImgs'>
-                <img src={Walmart} alt='Client' className='clientImg' />
-                <img src={Adobe} alt='Client' className='clientImg' />
-                <img src={Microsoft} alt='Client' className='clientImg' />
-                <img src={Facebook} alt='Client' className='clientImg' />
-            </div>
-        </div> */}
         <div id='contact'>
             <h1 className='contactPageTitle'>
                 Contact Me
@@ -61,10 +46,6 @@ const Contact = () => {
                 <div className='links'>
                     <FontAwesomeIcon icon={faGithub} alt='Facebook' className='link' />
                     <FontAwesomeIcon icon={faLinkedin} alt='Facebook' className='link' />
-                    {/* <img src={FacebookIcon} alt='Facebook' className='link' />
-                    <img src={TwitterIcon} alt='Twitter' className='link' />
-                    <img src={YoutubeIcon} alt='Youtube' className='link' />
-                    <img src={InstagramIcon} alt='Instagram' className='link' /> */}
                 </div>
             </form>
         </div>

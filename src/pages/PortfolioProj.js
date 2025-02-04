@@ -15,7 +15,7 @@ const PortfolioProj = () => {
     <div>
         <Navbar />
         <PortfolioIntro />
-        <PortfolioExamples />
+        {/* <PortfolioExamples /> */}
         <Footer />
     </div>
   )
