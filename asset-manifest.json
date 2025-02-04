@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RSportfolio/static/css/main.8bbc46cc.css",
-    "main.js": "/RSportfolio/static/js/main.0a670379.js",
+    "main.css": "/RSportfolio/static/css/main.a89b4a1f.css",
+    "main.js": "/RSportfolio/static/js/main.4e9f0313.js",
     "reactPlayerYouTube.js": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js",
     "reactPlayerSoundCloud.js": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js",
     "reactPlayerVimeo.js": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js",
@@ -32,16 +32,19 @@
     "static/media/MeleeBT2.png": "/RSportfolio/static/media/MeleeBT2.0981e3a58c599a6561f4.png",
     "static/media/portfolio-4.png": "/RSportfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
     "static/media/portfolio-1.png": "/RSportfolio/static/media/portfolio-1.b33adf772d54ab33e953.png",
+    "static/media/navbar.png": "/RSportfolio/static/media/navbar.bc3f90379cdf00748ede.png",
     "static/media/portfolio-5.png": "/RSportfolio/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
     "static/media/BoxerBT.png": "/RSportfolio/static/media/BoxerBT.0c9529152a00307590e2.png",
     "static/media/PatrolBT.png": "/RSportfolio/static/media/PatrolBT.a8d8a3296bcd379dda51.png",
     "static/media/portfolio-3.png": "/RSportfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/pageImgLinks.png": "/RSportfolio/static/media/pageImgLinks.59617896dec79f990d29.png",
     "static/media/MeleeBT3.png": "/RSportfolio/static/media/MeleeBT3.c2bcd425493fad83c4ff.png",
     "static/media/ProtoPatrolBT.png": "/RSportfolio/static/media/ProtoPatrolBT.f4c4cf61680e628ef733.png",
     "static/media/ThugBT.png": "/RSportfolio/static/media/ThugBT.fa8917250d5a40d7e8ed.png",
     "static/media/BaseEQS.png": "/RSportfolio/static/media/BaseEQS.3a392dbf6548567bd619.png",
     "static/media/MeleeBT.png": "/RSportfolio/static/media/MeleeBT.e5a57df10b1df61c90e1.png",
     "static/media/RangedEQS.png": "/RSportfolio/static/media/RangedEQS.6b9198e67c1161c24674.png",
+    "static/media/emailJS.png": "/RSportfolio/static/media/emailJS.cf5a65946013a79dda30.png",
     "static/media/BoxerBT2.png": "/RSportfolio/static/media/BoxerBT2.7e4af7953dd4df342692.png",
     "static/media/BlunderbussEQS.png": "/RSportfolio/static/media/BlunderbussEQS.0c2e4bb44cc68f95d881.png",
     "static/media/ThugBT4.png": "/RSportfolio/static/media/ThugBT4.477a22606339987d8c6b.png",
@@ -49,19 +52,17 @@
     "static/media/swarmGif.gif": "/RSportfolio/static/media/swarmGif.04cffe49e886f1d94230.gif",
     "static/media/FinalTasks.png": "/RSportfolio/static/media/FinalTasks.faa0c1ee485da8dad1d7.png",
     "static/media/ProtoTasks.png": "/RSportfolio/static/media/ProtoTasks.35fc57157838228f3846.png",
-    "static/media/AIEngineerIcon.png": "/RSportfolio/static/media/AIEngineerIcon.103016da5a7455038dee.png",
     "static/media/FinalDecs.png": "/RSportfolio/static/media/FinalDecs.0444bc9ab422bf3b5a44.png",
     "static/media/facebook.png": "/RSportfolio/static/media/facebook.81dd033a37c4860f7121.png",
     "static/media/portfolioProjImg.png": "/RSportfolio/static/media/portfolioProjImg.3b131bdc04fa229b99f5.png",
-    "static/media/GameDevIcon.png": "/RSportfolio/static/media/GameDevIcon.0430d29f6b3ee9fa11ff.png",
-    "static/media/FullStackIcon.png": "/RSportfolio/static/media/FullStackIcon.e1918a32ed2db4d1c1d5.png",
     "static/media/ProtoDecor.png": "/RSportfolio/static/media/ProtoDecor.9eb5b6767506c0392af8.png",
     "static/media/adobe.png": "/RSportfolio/static/media/adobe.a08b8360ff7b700ed0c4.png",
     "static/media/walmart.png": "/RSportfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
+    "static/media/fileStructure.png": "/RSportfolio/static/media/fileStructure.a34af26d182463fc83e3.png",
     "static/media/instagram.png": "/RSportfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/RSportfolio/index.html",
-    "main.8bbc46cc.css.map": "/RSportfolio/static/css/main.8bbc46cc.css.map",
-    "main.0a670379.js.map": "/RSportfolio/static/js/main.0a670379.js.map",
+    "main.a89b4a1f.css.map": "/RSportfolio/static/css/main.a89b4a1f.css.map",
+    "main.4e9f0313.js.map": "/RSportfolio/static/js/main.4e9f0313.js.map",
     "reactPlayerYouTube.1ea34014.chunk.js.map": "/RSportfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js.map",
     "reactPlayerSoundCloud.cd68a6f2.chunk.js.map": "/RSportfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js.map",
     "reactPlayerVimeo.6f023723.chunk.js.map": "/RSportfolio/static/js/reactPlayerVimeo.6f023723.chunk.js.map",
@@ -78,7 +79,7 @@
     "reactPlayerPreview.c2ccba25.chunk.js.map": "/RSportfolio/static/js/reactPlayerPreview.c2ccba25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bbc46cc.css",
-    "static/js/main.0a670379.js"
+    "static/css/main.a89b4a1f.css",
+    "static/js/main.4e9f0313.js"
   ]
 }
