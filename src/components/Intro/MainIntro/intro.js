@@ -9,7 +9,7 @@ const Intro = () => {
         <section id="intro" >
             <section id="mainIntro">
                 <div className="introContent" >
-                    <span className="hello">YOOOOOOOOOO,</span>
+                    <span className="hello">Hello there,</span>
                     <span className="introText">I'm <span className="introName">Ryan Sloan</span> <br />Software Engineer</span>
                     <p className="introParagraph">I am a skilled and passionate Software Engineer with experience<br />in FullStack, Mobile, AI, and Games Engineering</p>
                     <Link><button className="btn"><img src={btnImg} alt="Hire Me" className="btnImg" />Hire Me</button></Link>
