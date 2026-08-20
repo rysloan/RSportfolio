@@ -1,3 +1,4 @@
+import './style.css'
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Ivorfall from "./pages/Ivorfall"
 import Main from "./pages/Main"
